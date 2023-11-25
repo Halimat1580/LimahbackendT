@@ -18,7 +18,7 @@ const NewUser = () => {
         e.preventDefault()
         // console.log('hello world');
         try{
-            const data = await axios.post('http://localhost:8080/api/user',{
+            const data = await axios.post('http://localhost:8085/api/user',{
                 name,
                 email,
                 profession,
